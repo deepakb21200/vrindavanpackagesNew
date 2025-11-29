@@ -1,0 +1,84 @@
+Vrindavan-tours/
+├─ public/
+│  ├─ index.html
+│  ├─ about.html
+│  ├─ contact.html
+│  ├─ gallery.html
+│  ├─ online-payment.html
+│
+│  ├─ packages/                       # ALL TOUR PACKAGES
+│  │  ├─ index.html                   # <<< ALL PACKAGES PAGE
+│  │  ├─ same-day-mathura-vrindavan.html
+│  │  ├─ same-day-agra-mathura-vrindavan.html
+│  │  └─ gokul-nandgaon-barsana-tour.html
+│
+│  ├─ blog/                           # ALL BLOGS + POSTS
+│  │  ├─ index.html                   # <<< ALL BLOGS PAGE
+│  │  ├─ how-to-plan-mathura-trip.html
+│  │  ├─ best-time-to-visit-vrindavan.html
+│  │  └─ temples-you-must-visit-in-mathura.html
+│
+│  ├─ assets/
+│  │  ├─ css/
+│  │  │  └─ tailwind.min.css
+│  │  ├─ js/
+│  │  │  └─ main.min.js
+│  │  ├─ img/
+│  │  │  ├─ tour-cards/
+│  │  │  │  ├─ same-day-mathura-vrindavan-card-400.webp
+│  │  │  │  ├─ same-day-mathura-vrindavan-card-800.webp
+│  │  │  │  ├─ same-day-agra-mathura-vrindavan-card-800.webp
+│  │  │  │  ├─ gokul-nandgaon-barsana-tour-card-800.webp
+│  │  │  │  └─ ... 
+│  │  │  ├─ packages/
+│  │  │  │  ├─ same-day-mathura-vrindavan-hero-1200.webp
+│  │  │  │  ├─ same-day-agra-mathura-vrindavan-hero-1200.webp
+│  │  │  │  ├─ gokul-nandgaon-barsana-tour-hero-1200.webp
+│  │  │  │  └─ ... (itinerary images)
+│  │  │  ├─ blog-cards/
+│  │  │  │  ├─ how-to-plan-mathura-trip-card-800.webp
+│  │  │  │  ├─ best-time-to-visit-vrindavan-card-800.webp
+│  │  │  │  └─ temples-you-must-visit-in-mathura-card-800.webp
+│  │  │  ├─ blog-featured/
+│  │  │  │  ├─ how-to-plan-mathura-trip-featured-1200.webp
+│  │  │  │  ├─ best-time-to-visit-vrindavan-featured-1200.webp
+│  │  │  │  └─ temples-you-must-visit-in-mathura-featured-1200.webp
+│  │  │  ├─ social/
+│  │  │  │  └─ og-mathura-vrindavan-1200x630.webp
+│  │  │  └─ icons/
+│  │  │     └─ favicon.ico
+│  │  └─ fonts/
+│  │     └─ inter-roman-400.woff2
+│
+│  ├─ sitemap.xml
+│  └─ robots.txt
+│
+├─ src/
+│  ├─ partials/
+│  │  ├─ head.html
+│  │  ├─ header.html
+│  │  ├─ footer.html
+│  │  ├─ tour-card.html
+│  │  └─ blog-card.html
+│  ├─ pages/
+│  │  ├─ index.html
+│  │  ├─ packages/
+│  │  │  ├─ index.html               # templates for ALL PACKAGES PAGE
+│  │  │  ├─ same-day-mathura-vrindavan.html
+│  │  │  ├─ same-day-agra-mathura-vrindavan.html
+│  │  │  └─ gokul-nandgaon-barsana-tour.html
+│  │  ├─ blog/
+│  │  │  ├─ index.html               # templates for ALL BLOGS PAGE
+│  │  │  ├─ how-to-plan-mathura-trip.html
+│  │  │  ├─ best-time-to-visit-vrindavan.html
+│  │  │  └─ temples-you-must-visit-in-mathura.html
+│  │  └─ contact.html
+│  └─ assets-unopt/
+│     ├─ img/
+│     └─ fonts/
+│
+├─ build-scripts/
+│  └─ build.sh
+├─ tools/
+│  └─ tailwind.config.js
+└─ README.md

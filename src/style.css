@@ -29,3 +29,17 @@
    
 }
 
+
+
+.discount{
+  position:absolute;
+  background-color: #fb7912;
+  width: 90px;
+  height: 90px;
+ 
+  color:white;
+  border-radius:50%;
+  top:-20px;
+  right:10px;
+}
+
