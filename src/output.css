@@ -222,17 +222,11 @@
   .relative {
     position: relative;
   }
-  .top-2 {
-    top: calc(var(--spacing) * 2);
-  }
   .top-2\.5 {
     top: calc(var(--spacing) * 2.5);
   }
   .top-\[90\%\] {
     top: 90%;
-  }
-  .right-2 {
-    right: calc(var(--spacing) * 2);
   }
   .right-2\.5 {
     right: calc(var(--spacing) * 2.5);
@@ -243,14 +237,8 @@
   .bottom-16 {
     bottom: calc(var(--spacing) * 16);
   }
-  .left-1 {
-    left: calc(var(--spacing) * 1);
-  }
   .left-1\/2 {
     left: calc(1/2 * 100%);
-  }
-  .left-2 {
-    left: calc(var(--spacing) * 2);
   }
   .left-2\.5 {
     left: calc(var(--spacing) * 2.5);
@@ -260,9 +248,6 @@
   }
   .mx-auto {
     margin-inline: auto;
-  }
-  .my-2 {
-    margin-block: calc(var(--spacing) * 2);
   }
   .my-2\.5 {
     margin-block: calc(var(--spacing) * 2.5);
@@ -275,9 +260,6 @@
   }
   .my-5 {
     margin-block: calc(var(--spacing) * 5);
-  }
-  .my-7 {
-    margin-block: calc(var(--spacing) * 7);
   }
   .my-7\.5 {
     margin-block: calc(var(--spacing) * 7.5);
@@ -372,9 +354,6 @@
   .inline-flex {
     display: inline-flex;
   }
-  .table {
-    display: table;
-  }
   .h-8 {
     height: calc(var(--spacing) * 8);
   }
@@ -459,13 +438,6 @@
   .flex-1 {
     flex: 1;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .-translate-x-1 {
-    --tw-translate-x: calc(var(--spacing) * -1);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1/2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -478,9 +450,6 @@
   }
   .cursor-pointer {
     cursor: pointer;
-  }
-  .resize {
-    resize: both;
   }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -728,14 +697,11 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[linear-gradient\(0deg\,\#090031_0\%\,rgba\(9\,0\,49\,0\.0508578\)_100\%\)\,url\(\'\.\.\/media\/assets\/img\/packages\/holi\.jpg\'\)\] {
-    background-image: linear-gradient(0deg,#090031 0%,rgba(9,0,49,0.0508578) 100%),url('../media/assets/img/packages/holi.jpg');
+  .bg-\[linear-gradient\(0deg\,\#090031_0\%\,rgba\(9\,0\,49\,0\.0508578\)_100\%\)\,url\(\'\.\.\/media\/assets\/img\/packages\/side_image\.webp\'\)\] {
+    background-image: linear-gradient(0deg,#090031 0%,rgba(9,0,49,0.0508578) 100%),url('../media/assets/img/packages/side_image.webp');
   }
   .bg-\[linear-gradient\(0deg\,\#090031_0\%\,rgba\(9\,0\,49\,0\.0508578\)_100\%\)\,url\(\'\.\.\/media\/images\/banner\.webp\'\)\] {
     background-image: linear-gradient(0deg,#090031 0%,rgba(9,0,49,0.0508578) 100%),url('../media/images/banner.webp');
-  }
-  .bg-\[linear-gradient\(0deg\,\#090031_0\%\,rgba\(9\,0\,49\,0\.0508578\)_100\%\)\,url\(\'https\:\/\/www\.vrindavanpackage\.com\/images\/tour\/banner-5\.webp\'\)\] {
-    background-image: linear-gradient(0deg,#090031 0%,rgba(9,0,49,0.0508578) 100%),url('https://www.vrindavanpackage.com/images/tour/banner-5.webp');
   }
   .bg-\[linear-gradient\(to_bottom_right\,\#f7d7aa\,\#fb7912\)\] {
     background-image: linear-gradient(to bottom right,#f7d7aa,#fb7912);
@@ -749,41 +715,11 @@
   .bg-\[linear-gradient\(to_right\,rgba\(0\,118\,212\,0\.4\)\,rgba\(0\,118\,212\,0\.2\)\)\,url\(\'https\:\/\/www\.vrindavanpackage\.com\/images\/tour\/radhey\.webp\'\)\] {
     background-image: linear-gradient(to right,rgba(0,118,212,0.4),rgba(0,118,212,0.2)),url('https://www.vrindavanpackage.com/images/tour/radhey.webp');
   }
-  .bg-\[linear-gradient\(to_right\,rgba\(22\,40\,105\,0\.91\)_46\%\,rgba\(0\,0\,0\,0\.41\)_100\%\)\,url\(\'\.\.\/\'\)\] {
-    background-image: linear-gradient(to right,rgba(22,40,105,0.91) 46%,rgba(0,0,0,0.41) 100%),url('../');
-  }
-  .bg-\[linear-gradient\(to_right\,rgba\(22\,40\,105\,0\.91\)_46\%\,rgba\(0\,0\,0\,0\.41\)_100\%\)\,url\(\'\.\.\/media\/\'\)\] {
-    background-image: linear-gradient(to right,rgba(22,40,105,0.91) 46%,rgba(0,0,0,0.41) 100%),url('../media/');
-  }
-  .bg-\[linear-gradient\(to_right\,rgba\(22\,40\,105\,0\.91\)_46\%\,rgba\(0\,0\,0\,0\.41\)_100\%\)\,url\(\'\.\.\/media\/assets\/\'\)\] {
-    background-image: linear-gradient(to right,rgba(22,40,105,0.91) 46%,rgba(0,0,0,0.41) 100%),url('../media/assets/');
-  }
-  .bg-\[linear-gradient\(to_right\,rgba\(22\,40\,105\,0\.91\)_46\%\,rgba\(0\,0\,0\,0\.41\)_100\%\)\,url\(\'\.\.\/media\/assets\/img\/\'\)\] {
-    background-image: linear-gradient(to right,rgba(22,40,105,0.91) 46%,rgba(0,0,0,0.41) 100%),url('../media/assets/img/');
-  }
   .bg-\[linear-gradient\(to_right\,rgba\(22\,40\,105\,0\.91\)_46\%\,rgba\(0\,0\,0\,0\.41\)_100\%\)\,url\(\'\.\.\/media\/assets\/img\/banner\/banner_2\.jpg\'\)\] {
     background-image: linear-gradient(to right,rgba(22,40,105,0.91) 46%,rgba(0,0,0,0.41) 100%),url('../media/assets/img/banner/banner_2.jpg');
   }
-  .bg-\[linear-gradient\(to_right\,rgba\(22\,40\,105\,0\.91\)_46\%\,rgba\(0\,0\,0\,0\.41\)_100\%\)\,url\(\'\.\.\/media\/assets\/img\/packages\/\'\)\] {
-    background-image: linear-gradient(to right,rgba(22,40,105,0.91) 46%,rgba(0,0,0,0.41) 100%),url('../media/assets/img/packages/');
-  }
   .bg-\[linear-gradient\(to_right\,rgba\(22\,40\,105\,0\.91\)_46\%\,rgba\(0\,0\,0\,0\.41\)_100\%\)\,url\(\'\.\.\/media\/assets\/img\/packages\/holi\.jpg\'\)\] {
     background-image: linear-gradient(to right,rgba(22,40,105,0.91) 46%,rgba(0,0,0,0.41) 100%),url('../media/assets/img/packages/holi.jpg');
-  }
-  .bg-\[linear-gradient\(to_right\,rgba\(22\,40\,105\,0\.91\)_46\%\,rgba\(0\,0\,0\,0\.41\)_100\%\)\,url\(\'\.\.\/media\/assets\/img\/packages\/holi\.webp\'\)\] {
-    background-image: linear-gradient(to right,rgba(22,40,105,0.91) 46%,rgba(0,0,0,0.41) 100%),url('../media/assets/img/packages/holi.webp');
-  }
-  .bg-\[linear-gradient\(to_right\,rgba\(22\,40\,105\,0\.91\)_46\%\,rgba\(0\,0\,0\,0\.41\)_100\%\)\,url\(\'\.\.\/media\/assets\/img\/packages\/side-image\.webp\'\)\] {
-    background-image: linear-gradient(to right,rgba(22,40,105,0.91) 46%,rgba(0,0,0,0.41) 100%),url('../media/assets/img/packages/side-image.webp');
-  }
-  .bg-\[linear-gradient\(to_right\,rgba\(22\,40\,105\,0\.91\)_46\%\,rgba\(0\,0\,0\,0\.41\)_100\%\)\,url\(\'\.\.\/media\/assets\/img\/packages\/side_image\.webp\'\)\] {
-    background-image: linear-gradient(to right,rgba(22,40,105,0.91) 46%,rgba(0,0,0,0.41) 100%),url('../media/assets/img/packages/side_image.webp');
-  }
-  .bg-\[linear-gradient\(to_right\,rgba\(22\,40\,105\,0\.91\)_46\%\,rgba\(0\,0\,0\,0\.41\)_100\%\)\,url\(\'https\:\/\/www\.vrindavanpackage\.com\/images\/tour\/holi\.jpg\'\)\] {
-    background-image: linear-gradient(to right,rgba(22,40,105,0.91) 46%,rgba(0,0,0,0.41) 100%),url('https://www.vrindavanpackage.com/images/tour/holi.jpg');
-  }
-  .bg-\[linear-gradient\(to_right\,rgba\(22\,40\,105\,0\.91\)_46\%\,rgba\(0\,0\,0\,0\.41\)_100\%\)\,url\(\)\] {
-    background-image: linear-gradient(to right,rgba(22,40,105,0.91) 46%,rgba(0,0,0,0.41) 100%),url();
   }
   .bg-\[url\(\'\.\.\/media\/assets\/img\/banner\/banner_1\.webp\'\)\] {
     background-image: url('../media/assets/img/banner/banner_1.webp');
@@ -854,9 +790,6 @@
   .px-\[25px\] {
     padding-inline: 25px;
   }
-  .py-0 {
-    padding-block: calc(var(--spacing) * 0);
-  }
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
   }
@@ -904,9 +837,6 @@
   }
   .py-\[70px\] {
     padding-block: 70px;
-  }
-  .pt-2 {
-    padding-top: calc(var(--spacing) * 2);
   }
   .pt-2\.5 {
     padding-top: calc(var(--spacing) * 2.5);
@@ -1095,10 +1025,6 @@
     @supports (color: color-mix(in lab, red, red)) {
       --tw-shadow-color: color-mix(in oklab, rgba(0,0,0,0.52) 0px 1px 20px var(--tw-shadow-alpha), transparent);
     }
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
@@ -1502,6 +1428,16 @@
       grid-template-columns: 70% 30%;
     }
   }
+  .lg\:flex-wrap {
+    @media (width >= 64rem) {
+      flex-wrap: wrap;
+    }
+  }
+  .lg\:items-start {
+    @media (width >= 64rem) {
+      align-items: flex-start;
+    }
+  }
   .lg\:justify-end {
     @media (width >= 64rem) {
       justify-content: flex-end;
@@ -1530,6 +1466,11 @@
   .lg\:px-5 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 5);
+    }
+  }
+  .lg\:px-\[15px\] {
+    @media (width >= 64rem) {
+      padding-inline: 15px;
     }
   }
   .lg\:text-2xl {
@@ -1853,13 +1794,6 @@
     &>div {
       @media (width >= 64rem) {
         flex: 1;
-      }
-    }
-  }
-  .\[\&\>div\]\:lg\:basis-\[200px\] {
-    &>div {
-      @media (width >= 64rem) {
-        flex-basis: 200px;
       }
     }
   }
@@ -2214,11 +2148,6 @@
   inherits: false;
   initial-value: 0 0 #0000;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-duration {
   syntax: "*";
   inherits: false;
@@ -2256,7 +2185,6 @@
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
-      --tw-outline-style: solid;
       --tw-duration: initial;
       --tw-ease: initial;
     }

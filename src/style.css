@@ -31,6 +31,22 @@
 
 
 
+.triangle_blue::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid  #538FFF;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+   
+}
+
+
+
 .discount{
   position:absolute;
   background-color: #fb7912;
